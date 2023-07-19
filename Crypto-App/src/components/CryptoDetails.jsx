@@ -107,10 +107,6 @@ const CryptoDetails = () => {
 					<Title level={3} className='coin-details-heading'>
 						What is {cryptoDetails?.name} ?<br />
 						{HTMLReactParser(cryptoDetails?.description)}
-						{/* <Title level={4}>
-							// {HTMLReactParser(cryptoDetails?.description)}
-							// {cryptoDetails?.description}
-						</Title> */}
 					</Title>
 				</Row>
 				<Col className='coin-links'>
