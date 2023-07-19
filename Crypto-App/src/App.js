@@ -16,7 +16,7 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
-              <Route exact path="/homepage" element={<Homepage />} />
+              <Route exact path="/" element={<Homepage />} />
               <Route exact path='/cryptocurrencies' element={<Cryptocurrencies />} />
               <Route exact path='/crypto/:coinId' element={<CryptoDetails />} />
               <Route exact path='/news' element={<News />} />
@@ -28,7 +28,7 @@ const App = () => {
             Cryptoverse <br />
             All rights reserved
           </Typography.Title>
-          <Space> {/* this is antdesign's div tag */}
+          <Space>
             <Link to="/">Home</Link>
             <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
